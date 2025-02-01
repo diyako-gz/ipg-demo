@@ -1,0 +1,1394 @@
+{
+  "gateway": "Gateway",
+  "lang": "فا",
+  "sidebar": {
+    "dashboard": {
+      "~": "Dashboard",
+      "transaction": "Transactions",
+      "verify": "Verify Transactions"
+    },
+    "terminal": {
+      "~": "Terminal",
+      "list": "Terminal List"
+    },
+    "channel": {
+      "~": "Channel",
+      "list": "Channels List",
+      "channelTerminal": "Channel Terminal"
+    },
+    "users": {
+      "~": "Users",
+      "list": "Users List",
+      "report": "Users Report"
+    },
+    "roles": {
+      "~": "Roles",
+      "list": "Roles List"
+    },
+    "sample": {
+      "~": "Sample",
+      "invoice": "Invoice"
+    },
+    "version": {
+      "~": "Version"
+    },
+    "technology": {
+      "~": "Technologies",
+      "list": "Technology List"
+    },
+    "service": {
+      "~": "Services",
+      "list": "Service List"
+    },
+    "event": {
+      "~": "Events",
+      "list": "Event List"
+    }
+  },
+  "channel": {
+    "~": "Channel",
+    "title": "Channels Managment",
+    "list": {
+      "title": "Channels List",
+      "apiKey": "api key",
+      "createdAt": "Created Date",
+      "createdBy": "Created By",
+      "ips": "IP",
+      "isManual": "prioritize",
+      "manualPriority": "Manual Priority",
+      "timePriority": "Transaction Time",
+      "name": "Name",
+      "channelID":"channel Id",
+      "domain": "Domain",
+      "code": "Code",
+      "action": "Action",
+      "checkUnknownTransactions": "Check Unknown Transactions",
+      "twoStepVerification": "Two Step Verification",
+      "interfaceId": "Interface Id",
+      "isServiceEnable": {
+        "~": "Check Services",
+        "enable": "Enable Check Services",
+        "disable": "Disable Check Services"
+      },
+      "isEnable": {
+        "0": "All",
+        "1": "Enabled",
+        "2": "Disabled"
+      }
+    },
+    "create": {
+      "title": "Create New Channel",
+      "edit": "Edit Channel",
+      "apiKey": "api key",
+      "createdAt": "Created Date",
+      "ips": "IP",
+      "isManual": "Sort by",
+      "domain": "Domain",
+      "name": "Name",
+      "code": "Code",
+      "cancel": "Cancel",
+      "priority": "Manual Priority",
+      "time": "Transaction Time",
+      "checkUnknownTransactions": "Check Unknown Transactions",
+      "twoStepVerification": "Two Step Verification",
+      "interfaceId": "Interface Id"
+    },
+    "terminal": {
+      "~": "Terminal Channel {{ name }} Managment",
+      "service": "Service",
+      "select": "Select Terminal",
+      "add": "Add",
+      "edit": "Edit",
+      "list": "Channel Terminal List",
+      "addToChannel": "Add Terminal to Channel",
+      "editChannelTerminal": "Edit Channel Terminal",
+      "allService": "All Services"
+    }
+  },
+  "terminal": {
+    "~": "Terminal",
+    "title": "Terminal Managment",
+    "isEnable": "Just Active Terminal",
+    "list": {
+      "title": "List Terminal",
+      "acceptorId": "Acceptor Id",
+      "acceptorCode": "Acceptor Code",
+      "bankId": "Bank Id",
+      "bankName": "Gateway Name",
+      "createdAt": "Created Date",
+      "createdBy": "Created By",
+      "id": "ID",
+      "isDisable": "Disable",
+      "isEnable": "Enable",
+      "name": "Name",
+      "priority": "Priority",
+      "password": "Password",
+      "publicKey": "Public Key",
+      "privateKey": "Private Key",
+      "Certification": "Certification",
+      "terminalId": "Terminal Id",
+      "action": "Action",
+      "select": "Select",
+      "service": "Service",
+      "serviceCode": "Service Code",
+      "accountLogin": "Account Login",
+      "accountBank": "‌Bank",
+      "accountNumber": "Account Number"
+    },
+    "create": {
+      "title": "Create Terminal",
+      "edit": "Edit Terminal",
+      "selectBank": "Select Gateway",
+      "acceptorId": "Acceptor Id",
+      "bankId": "Gateway Id",
+      "bankName": "Gateway Name",
+      "createdAt": "Created Date",
+      "createdBy": "Created By",
+      "id": "ID",
+      "isDisable": "Disable",
+      "name": "Name",
+      "priority": "Priority",
+      "password": "Password",
+      "publicKey": "Public Key",
+      "privateKey": "Private Key",
+      "Certification": "Certification",
+      "terminalId": "Terminal Id",
+      "acceptorCode": "Acceptor Code",
+      "payerId": "Payer Id",
+      "accountLogin": "Account Login",
+      "cancel": "Cancel",
+      "accountBank": "‌Bank",
+      "accountNumber": "Account Number",
+      "uploadIcon": "Upload Icon",
+      "selectFile": "The file must be less than 500kB"
+    }
+  },
+  "transaction": {
+    "~": "Transaction",
+    "list": {
+      "~": "List",
+      "amount": "Amount",
+      "bankId": "Gateway Id",
+      "bankName": "Gateway Name",
+      "capturePaymentResponseTime": "Capture Payment Response Time",
+      "capturePaymentTime": "Capture Payment Time",
+      "channel": "Channel",
+      "channelName": "Channel Name",
+      "customerId": "Customer Id",
+      "customerName": "Customer Name",
+      "getPeymentModeTime": "Get Peyment Mode Time",
+      "offerCode": "Offer Code",
+      "orderDetail": "Order Detail",
+      "detail": "Details",
+      "orderID": "Order ID",
+      "retrievalReferenceNumber": "Payment ID",
+      "paymentID": "Payment ID",
+      "paymentId": "Payment Id",
+      "paymentModeResponseTime": "Payment Mode Response Time",
+      "referId": "Refer Id",
+      "requestId": "Request Id",
+      "service": "Service",
+      "status": "Status",
+      "finalState": "Final State",
+      "time": "Time",
+      "duration": "Duration",
+      "transactionCode": "Transaction Code",
+      "transactionId": "Transaction Id",
+      "verifyTime": "Verify Time",
+      "more": "More Detail",
+      "queue": "Queue",
+      "total_count": "Total number of records: ",
+      "total_amount": "Total Amount: ",
+      "terminalName": "Terminal Name",
+      "accountBank": "‌Bank",
+      "accountNumber": "Account Number",
+      "id": "ID",
+      "channelVerifyMessage": "Channel Verify Message",
+      "channelVerifyStatusCode": "Channel Verify Status Code",
+      "requestTime": "Application submission time",
+      "responseTime": "Time to receive a response",
+      "requestDuration": "Waiting time to receive a response from the channel",
+      "isTimeout": "The request has timed out",
+      "sendVerify": "Send Verify",
+      "selectAll": "Select All",
+      "lastSendVerifyTime": "Last Send Verify Time",
+      "sendhistory": "Confirmation History",
+      "flow": "Flow",
+      "requestBody": "Information Sent",
+      "responseMessage": "Message Received",
+      "description": "Description",
+      "orderId": "Order Id",
+      "referenceNumber": "Reference Number",
+      "responseCode": "Response Code",
+      "verifyParams": "Verify Params",
+      "scheduler": "Automatic Close",
+      "state_time": "Duration of presence in the process",
+      "search-description": "By pressing the search button, the search is performed on the transactions of the last 6 months. To search for old transactions, you must have the relevant access and check the archive button.",
+      "twoStepVerification": "Two Step Verification",
+      "receiveVerification": "Receive Verification",
+      "archiveDates": {
+        "1": "The archive contains transactions from date",
+        "2": "to date",
+        "3": ""
+      }
+    },
+    "form": {
+      "~": "Advanced Serach",
+      "start": "From",
+      "end": "To",
+      "totalCount": "Total Count",
+      "totalAmount": "Total Amount",
+      "bankId": "Gateway",
+      "channelcode": "Channel",
+      "service": "Service",
+      "orderId": "Order Id",
+      "offerCode": "Offer Code",
+      "transactionId": "Payment Id",
+      "customerName": "Customer Name",
+      "fileName": "File Name",
+      "status": "Status",
+      "finalState": "Final State",
+      "search": "Search..",
+      "cancel": "Cancel",
+      "exelFileName": "Enter the title of the output file",
+      "download": "Download",
+      "accountBank": "‌Bank",
+      "accountNumber": "Account Number",
+      "paymentModeId": "Terminal",
+      "verify": "Verify All filterd",
+      "verify-selected": "Verify Selected",
+      "technology": "Technology",
+      "amountFrom": "From Amount",
+      "amountTo": "To Amount"
+    },
+    "status": {
+      "getPaymentMode": "Get Payment Mode",
+      "capturePaymentMode": "Capture Payment Mode",
+      "callback": "Callback",
+      "done": "Done",
+      "backFromTheGateway": "Back From The Gateway"
+    },
+    "state": {
+      "unknow": "Unknow",
+      "successfull": "Successful",
+      "unsuccessfull": "Unsuccessful",
+      "pending": "Pending"
+    },
+    "verify": {
+      "not-send": "Not Send",
+      "queueing": "Queueing",
+      "sent": "Sent"
+    }
+  },
+  "invoice": {
+    "amount": "Amount",
+    "offerCode": "Offer Code",
+    "service": "Service",
+    "channelcode": "Channel",
+    "customerId": "Customer Id",
+    "customerName": "Customer Name",
+    "customerMobile": "Customer Mobile",
+    "callBackUrl": "Call Back Url",
+    "redirectUrl": "Redirect Url",
+    "verifyParams": "Verify Params",
+    "verifyUrl": "Verify Url",
+    "orderDetail": "Order Detail",
+    "invoicing": "Invoicing",
+    "payerId": "Payer Id",
+    "invoice": {
+      "~": "INVOICE",
+      "hi": "Hi",
+      "thanks": "Thank you for your purchase",
+      "issueTracking": "Issue Tracking",
+      "order": "Order",
+      "orderDetail": "Description and specifications",
+      "count": "Count",
+      "amount": "Final cost",
+      "return": "Return"
+    }
+  },
+  "select": "Select",
+  "amount": "Amount",
+  "pay_queue": "Pay Queue",
+  "rate": "Rate",
+  "time_on_site": "Time On Site",
+  "completion": "Completion",
+  "header": {
+    "welcome": "Welcome {{ userName }}",
+    "user-setting": {
+      "title": "User Setting"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": {
+      "title": "Welcome",
+      "text": "Welcome to admin panel"
+    },
+    "form": {
+      "~": "Advanced Serach",
+      "start": "From",
+      "end": "To",
+      "service": "Service",
+      "bank": "Gateway",
+      "channel": "Channel",
+      "channelCode": "Channel",
+      "serviceId": "Service Id",
+      "status": "Status",
+      "state": "State",
+      "terminal": "Terminal",
+      "bankId": "Gateway",
+      "displayBase": "View by",
+      "search": "Search..",
+      "cancel": "Cancel"
+    },
+    "chart": "Customer Transaction",
+    "totalAmount": "Total Amount",
+    "totalCount": "Total Count",
+    "channelCount": "Channel Count",
+    "terminalCount": "Terminal Count",
+    "type": {
+      "1": "time to get token",
+      "2": "user was in psp",
+      "3": "time to verify transaction"
+    },
+    "average": "average",
+    "enableFrom": "Enable From"
+  },
+  "auth": {
+    "login": "Login",
+    "title": "Login to IPG",
+    "logout": "Logout",
+    "username": "Username",
+    "register": "Register",
+    "fullname": "Fullname",
+    "email": "Email",
+    "password": "Password",
+    "username_phone": "Email or Phone Number",
+    "forget-password": "Forget your password?",
+    "confirm-password": "Confirm Password",
+    "send-email": "Send",
+    "return-to-login": "Return To Login Page",
+    "key": "Verify Key",
+    "verify_msg": "Enter Key We Sent To Your Email or Your Cellphone"
+  },
+  "confirm": {
+    "message": "Are you sure?"
+  },
+  "entity": {
+    "user": "User",
+    "role": "Role",
+    "json": "JSON File",
+    "contact": "Contact",
+    "not-found": "Data Not Found",
+    "notifications-settings": "Notifications Settings",
+    "avatar": "Avatar",
+    "report": "Report",
+    "image": "Image",
+    "settlement": "Settlement",
+    "settlement-response": "Settlement Response",
+    "terminal": "Terminal",
+    "iban": "Iban",
+    "shop": "Shop",
+    "contranct": "Contract",
+    "request": "Request",
+    "channel": "Channel",
+    "terminalForChannel": "Terminal For Channel",
+    "technology": "Technology",
+    "service": "Service",
+    "event": "Event"
+  },
+  "operation": {
+    "select": {
+      "title": "Select",
+      "message": "selected"
+    },
+    "edit": {
+      "title": "Edit",
+      "message": "edited"
+    },
+    "create": {
+      "title": "Create",
+      "message": "created"
+    },
+    "add": {
+      "title": "Add",
+      "message": "added"
+    },
+    "delete": {
+      "title": "Delete",
+      "message": "deleted"
+    },
+    "batch-delete": {
+      "title": "Delete",
+      "message": "deleted"
+    },
+    "swap": {
+      "title": "Swap",
+      "message": "swaped"
+    },
+    "recalculate": {
+      "title": "Recalculate",
+      "message": "Recalculated"
+    },
+    "upload": {
+      "title": "Upload",
+      "message": "uploaded"
+    },
+    "active": {
+      "title": "Active",
+      "message": "Activated"
+    },
+    "deactive": {
+      "title": "Deactive",
+      "message": "Deactivated"
+    },
+    "export": {
+      "title": "Report",
+      "message": "Report Created"
+    },
+    "message": {
+      "title": "Message",
+      "message": "Message Sent"
+    },
+    "change": {
+      "title": "Change",
+      "message": "Changed"
+    },
+    "reset_password": {
+      "title": "Reset Password",
+      "message": "Reset"
+    },
+    "generate-JSON": {
+      "title": "Generate",
+      "message": "Generated"
+    },
+    "delete_photo": {
+      "title": "Delete",
+      "message": "Deleted"
+    },
+    "changeState": {
+      "title": " Toggle Status Of",
+      "message": "Changed"
+    },
+    "makeAdministrator": {
+      "title": " Change account type to Administrator",
+      "message": "Changed"
+    },
+    "makeStandardUser": {
+      "title": " Change account type to Standard User",
+      "message": "Changed"
+    },
+    "run": {
+      "title": "Run",
+      "message": "Runned"
+    },
+    "runAgain": {
+      "title": "Run Again",
+      "message": "Runned"
+    },
+    "restore": {
+      "title": "Restore",
+      "message": "Restored"
+    }
+  },
+  "notify": {
+    "success": {
+      "title": "{{ operation.title }} {{ entity }}",
+      "message": "{{ name }} {{ operation.message }} successfully"
+    },
+    "error": {
+      "title": "{{ operation.title }} {{ entity }}",
+      "message": "{{ name }} {{ operation.message }} Failed"
+    },
+    "operation-success": {
+      "title": "Success",
+      "message": "Operation successfully completed"
+    },
+    "request": {
+      "title": "Wait",
+      "message": "Requesting"
+    },
+    "select-store": {
+      "title": "Select an Store",
+      "message": "You most select an store first"
+    },
+    "login-required": {
+      "title": "Login Required",
+      "message": "You most login first"
+    },
+    "login-success": {
+      "title": "Login Success",
+      "message": "You are successfully logged in"
+    },
+    "logout-success": {
+      "title": "Log Out",
+      "message": "You Logout Successfully"
+    },
+    "register-success": {
+      "title": "Register Success",
+      "message": "You are successfully registered"
+    },
+    "reset-pass-success": {
+      "title": "Reset Password Success",
+      "message": "You're password changed successfully"
+    },
+    "forget-pass-success": {
+      "title": "Send Email Success",
+      "message": "An email sent to you"
+    },
+    "upload-type-error": {
+      "title": "File Type Error",
+      "message": "\"{{ fileName }}\" is not acceptable"
+    },
+    "upload-size-error": {
+      "title": "File Size Error",
+      "message": "Size of \"{{ fileName }}\" is over 500kB"
+    },
+    "select-image-overlimit": {
+      "title": "Selection over limited",
+      "message": "Can not select more than {{ countLimit }} images"
+    },
+    "retry-verify": {
+      "title": "Retry Verify",
+      "message": "{{ count }} Transaction Verifyed"
+    },
+    "date-picker": {
+      "title": "Date Range",
+      "message": "The start date is larger than the end date"
+    }
+  },
+  "error": {
+    "title": "Error",
+    "400": {
+      "title": "Invalid Request",
+      "message": "Invalid Request Parameters"
+    },
+    "401": {
+      "title": "Not Allowed",
+      "message": "Administrator access is required"
+    },
+    "404": {
+      "title": "Not Found",
+      "message": "Request Not Found"
+    },
+    "500": {
+      "title": "Internal Server Error",
+      "message": "Please try Again or Contact System Admin"
+    },
+    "501": {
+      "title": "Internal Server Error",
+      "message": "Please try Again or Contact System Admin"
+    },
+    "502": {
+      "title": "Internal Server Error",
+      "message": "Please try Again or Contact System Admin"
+    },
+    "503": {
+      "title": "Internal Server Error",
+      "message": "Please try Again or Contact System Admin"
+    },
+    "504": {
+      "title": "Internal Server Error",
+      "message": "Please try Again or Contact System Admin"
+    },
+    "4001": {
+      "title": "Bad request",
+      "message": "Invalid Request Parameters: Bind Erro"
+    },
+    "4002": {
+      "title": "Validation Error",
+      "message": "Invalid Request Parameters: Validation Error"
+    },
+    "4003": {
+      "title": "Unable To Login",
+      "message": "Username or Password is Incorrect"
+    },
+    "4004": {
+      "title": "Not Found",
+      "message": "Cant find item"
+    },
+    "4005": {
+      "title": "Json Parse Error",
+      "message": "Unable To Parse JSON File"
+    },
+    "4006": {
+      "title": "Required",
+      "message": "Value Required"
+    },
+    "4007": {
+      "title": "Redirect",
+      "message": "Unable To Redirect"
+    },
+    "4008": {
+      "title": "Password",
+      "message": "Password Do Not Match"
+    },
+    "4009": {
+      "title": "Login Required",
+      "message": "Login To System"
+    },
+    "40010": {
+      "title": "Permission",
+      "message": "You Do Not Have Permision"
+    },
+    "40011": {
+      "title": "Permission",
+      "message": "You Are Not Agent"
+    },
+    "40012": {
+      "title": "Duplicate Entry",
+      "message": "Can Not Add This Item"
+    },
+    "40013": {
+      "title": "Upload",
+      "message": "Unable To Upload This File"
+    },
+    "40014": {
+      "title": "Invalid Format",
+      "message": "Unable To Save This Form"
+    },
+    "40015": {
+      "title": "Unauthorized User",
+      "message": "You Are Not Authorized"
+    },
+    "40016": {
+      "title": "Key",
+      "message": "Invalid Key"
+    },
+    "40017": {
+      "title": "Token",
+      "message": "Invalid Token"
+    },
+    "40018": {
+      "title": "Api Key",
+      "message": "Invalid Api Key"
+    },
+    "40019": {
+      "title": "Ip Address",
+      "message": "Ip Address Not Allowed"
+    },
+    "40020": {
+      "title": "Payment Mode",
+      "message": "Payment Mode Id Is Not Valid"
+    },
+    "40021": {
+      "title": "Unauthorized",
+      "message": "You Are Not Authorized"
+    },
+    "40022": {
+      "title": "Permission Denied",
+      "message": "You Do Not Have Permision"
+    },
+    "40023": {
+      "title": "Error Upload",
+      "message": "Unable To Upload"
+    },
+    "5001": {
+      "title": "Save",
+      "message": "Unable To Save"
+    },
+    "5002": {
+      "title": "Delete",
+      "message": "Unable To Delete"
+    },
+    "5003": {
+      "title": "Pagination",
+      "message": "Cant Pagination This List"
+    },
+    "5004": {
+      "title": "Password Hash",
+      "message": "Unable To Hash Password"
+    },
+    "5005": {
+      "title": "Export",
+      "message": "Unable To Export Data or Draw Chart"
+    },
+    "5006": {
+      "title": "Update",
+      "message": "Unable To Update"
+    },
+    "50010": {
+      "title": "Error Callback",
+      "message": "Unable To Send Callback"
+    },
+    "50012": {
+      "title": "Error JSON File",
+      "message": "Unable To Generate Json File"
+    },
+    "50013": {
+      "title": "Error Read File",
+      "message": "Unable To Read File"
+    }
+  },
+  "pagination": {
+    "first": "First",
+    "previous": "Previous",
+    "next": "Next",
+    "last": "Last"
+  },
+  "forms": {
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "feedback": {
+      "required": "You should fill this field",
+      "pattern": "The entered value is not correct",
+      "least": "At least {{ least }}",
+      "max": "Maximum {{ max }}",
+      "value-min": "Minimum {{ min }}",
+      "value-max": "Maximum {{ max }}",
+      "notmatch": "Password does not match",
+      "number": "Entered number is not correct",
+      "low-number": "Must be at least {{ num }}",
+      "big-number": "Must be maximum {{ num }}"
+    },
+    "alert": {
+      "required": "can't be empty",
+      "pattern": "is not acceptable",
+      "least": "can't be less than {{ least }}",
+      "max": "can't be more than {{ max }}",
+      "password-not-match": "Confirm Password Not Match"
+    },
+    "save": "Save",
+    "edit": "Edit",
+    "export": "Export",
+    "draw-chart": "Draw Chart",
+    "add": "Add",
+    "upload": "Upload",
+    "fildes": {
+      "select": "Select",
+      "selectAll": "Select All",
+      "clear": "Clear",
+      "all": "All"
+    }
+  },
+  "search": "Search..",
+  "close": "Close",
+  "list": {
+    "empty": "Nothing To Display",
+    "operations": "Operations",
+    "edit": "Edit",
+    "delete": "Delete",
+    "select": "Select",
+    "view": "View",
+    "operation": "Operation",
+    "show": "Showing",
+    "to": "To Date",
+    "of": "of"
+  },
+  "users": {
+    "title": "Users",
+    "list": {
+      "createdAt": "Created Date",
+      "fullname": "Full Name",
+      "username": "User Name",
+      "id": "ID",
+      "title": "User List",
+      "email": "Email",
+      "group": "Group",
+      "status": "Status",
+      "name": "Name",
+      "last_name": "Last Name",
+      "state": "State",
+      "isEnable": "Enable",
+      "justEnable": "Dispaly Enable Users",
+      "isDisable": "Disable",
+      "city": "City",
+      "role": "Role",
+      "avatar": "Avatar",
+      "position": "Position",
+      "cell_phone_number": "Cell Phone Number",
+      "citizenship_id": "Citizenship ID",
+      "contract": "Contract",
+      "deactivated": "Deactive User",
+      "reset_password": "Reset Password",
+      "email-verified": "Email Verification",
+      "action": "Action",
+      "admin": "Convert To Admin User",
+      "standard": "Convert To Standard User",
+      "lastLogin": "Last Login"
+    },
+    "create": {
+      "title": "Add New User",
+      "edit": "Edit User",
+      "fullname": "Full Name",
+      "username": "User Name",
+      "email": "Email",
+      "password": "Password",
+      "confirm_password": "Confirm Password",
+      "success": "User Created Successfully",
+      "state": "State",
+      "city": "City",
+      "role": "Role",
+      "avatar": "Avatar",
+      "position": "Position",
+      "cell_phone_number": "Cell Phone Number",
+      "citizenship_id": "Citizenship ID",
+      "contract": "Contract",
+      "Suburb": "Suburb",
+      "address": "Address",
+      "postal_code": "Postal Code",
+      "lat": "Latitude",
+      "lng": "Longitude",
+      "phone_number": "Phone Number",
+      "cell_number": "Cell Number",
+      "contract_id": "Contract",
+      "isAdmin": "Admin",
+      "cancel": "Cancel",
+      "admin": "Administrator",
+      "standard": "Standard User",
+      "isWebServiceUser":"Web Service",
+      "webServiceUser":"Web Service User"
+    },
+    "setting": {
+      "profile": {
+        "title": "User Profile",
+        "name": "Full Name",
+        "email": "Email",
+        "cell_number": "Cell Number",
+        "phone_number": "Phone Number",
+        "citizenship_id": "Citizenship ID",
+        "role": "Role"
+      },
+      "config": "User Configuration",
+      "change-password": {
+        "title": "Change Password",
+        "current": "Current Password",
+        "new": "New Password",
+        "confirm": "Confirm New Password"
+      }
+    }
+  },
+  "notification": {
+    "title": "Notifications",
+    "empty": "There Is No Notification",
+    "Comment": "Comment",
+    "Message": "Message",
+    "mark-all-as-read": "Mark all as read",
+    "read_all": "Read All Notifications",
+    "refresh": "Refresh Notifications",
+    "list": {
+      "title": "Notifications"
+    },
+    "view": {
+      "title": "View Notification"
+    }
+  },
+  "user": {
+    "account": "Account"
+  },
+  "notifications": {
+    "title": "Notifications List",
+    "list": {
+      "category": "Category",
+      "type": "Type",
+      "emailDeliveredAt": "Email Delivered At",
+      "smsDeliveredAt": "Sms Delivered At",
+      "user": "User Fullname",
+      "mission": "Mission"
+    },
+    "view": {
+      "title": "View Notification",
+      "category": "Category",
+      "type": "Type",
+      "emailDeliveredAt": "Email Delivered At",
+      "smsDeliveredAt": "Sms Delivered At",
+      "message": "Message",
+      "mission": "Mission",
+      "mission_priority": "Mission Priority",
+      "mission_scenario": "Mission Scenario",
+      "mission_status": "Mission Status",
+      "user": "User Fullname",
+      "user_role": "User Role",
+      "user_cell": "Cellphone Number",
+      "user_email": "User Email"
+    }
+  },
+  "report": {
+    "title": "Report",
+    "chart": {
+      "title": "Chart"
+    },
+    "table": {
+      "title": "Table"
+    }
+  },
+  "requests": {
+    "title": "Requests",
+    "list": {
+      "status": "Status",
+      "type": "Type"
+    },
+    "create": {
+      "title": "Add New Request",
+      "requestType": "Request Type",
+      "user": "User"
+    },
+    "detail": {
+      "title": "Request Detail"
+    },
+    "history": {
+      "name": "Name",
+      "apiRoute": "API Route",
+      "description": "Description",
+      "fullname": "Full Name",
+      "emailAddress": "Email Address",
+      "cellphoneNumber": "Cell Phone Number",
+      "role": "Role",
+      "comment": "Comment"
+    }
+  },
+  "transactions": {
+    "title": "Transactions",
+    "list": {
+      "userAgent": "User Agent",
+      "website": "Website",
+      "merchantInvoiceID": "Merchant Invoice ID",
+      "payerFullname": "Payer Fullname",
+      "payerEmailAddress": "Payer Email Address",
+      "psp": "PSP",
+      "description": "Description",
+      "select": "Select"
+    },
+    "create": {
+      "title": "Add New Transaction"
+    },
+    "view": {
+      "title": "View Transaction",
+      "header": "Transaction Detail"
+    }
+  },
+  "none": "---",
+  "back": "Back",
+  "notFoundText": "No Items Found",
+  "attention": "Attention!",
+  "form": {
+    "yes": "Yes",
+    "no": "No",
+    "feedback": {
+      "required": "This section must be filled!",
+      "notmatch": "Password does not match",
+      "minlength": "At least {{ e.requiredLength }} Let it be. ({{ e.actualLength }})",
+      "maxlength": "Maximum {{ e.requiredLength }} Let it be. ({{ e.actualLength }})",
+      "max": "This field could not be more than {{ e.max }}",
+      "min": "This field cannot be less than {{ e.min }}",
+      "pattern": "The value entered is invalid"
+    }
+  },
+  "time": {
+    "day": "d",
+    "days": "days",
+    "hour": "h",
+    "hours": "hours",
+    "minute": "m",
+    "minutes": "minutes",
+    "second": "s",
+    "seconds": "seconds",
+    "milisecond": "ms",
+    "miliseconds": "miliseconds",
+    "dayofweek": "Day of Week",
+    "month": "Month",
+    "dayofMonth": "Day of Month",
+    "week": {
+      "saturday": "Saturday",
+      "sunday": "Sunday",
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday"
+    }
+  },
+  "auditlog": {
+    "action": {
+      "~": "Action",
+      "create": "Create",
+      "update": "Update",
+      "remove": "Remove",
+      "login": "Login",
+      "logout": "Logout",
+      "export": "Export Excel File",
+      "resend_verify": "Resend Verify",
+      "run_event": "Run Event"
+    },
+    "entity": {
+      "~": "Entity",
+      "user": "Users",
+      "trasnaction": "Transactions",
+      "terminal": "Terminals",
+      "channel": "Channels",
+      "channel-terminal": "Channel Terminals",
+      "user_role": "User Roles",
+      "role": "Roles",
+      "service": "Services",
+      "event": "Events"
+    },
+    "form": {
+      "user": "User",
+      "username": "Username",
+      "entity_id": "ID",
+      "entity_value": {
+        "user": "Username",
+        "trasnaction": "",
+        "terminal": "Name",
+        "channel": "Name",
+        "channel-terminal": "",
+        "user_role": "Name"
+      }
+    },
+    "list": {
+      "time": "Time",
+      "entity_value": "Username / Name",
+      "ip": "IP Address",
+      "api": "API",
+      "line": "Code Line",
+      "entity": {
+        "~": "Entity",
+        "user": "User",
+        "trasnaction": "Transaction",
+        "terminal": "Terminal",
+        "channel": "Channel",
+        "channel-terminal": "Channel Terminal",
+        "user_role": "Role"
+      }
+    },
+    "details": {
+      "~": "Details",
+      "api": "API Route",
+      "line": "Code Line",
+      "data": "Data",
+      "before": "Before",
+      "after": "After",
+      "filter": "Filter",
+      "title": "Title",
+      "value": "Value",
+      "size": "Size",
+      "t_id": "ID",
+      "scheduler": "Automatic Close",
+      "channelcode": "Channel",
+      "channelCode": "Channel",
+      "customerNationalCode": "Customer National Code",
+      "start": "Start",
+      "end": "End",
+      "from": "From",
+      "to": "To",
+      "ids": "ID List",
+      "paymentModeId": "Terminal",
+      "featured": "Featured",
+      "count": "Count",
+      "fullname": "Name",
+      "isAdmin": "Is Admin",
+      "username": "Username",
+      "yes": "Yes",
+      "no": "No",
+      "true": "Yes",
+      "false": "No",
+      "icon": "Icon",
+      "isEnable": "Enabled",
+      "action": "Action",
+      "select": "Select",
+      "acceptorId": "Acceptor Id",
+      "bankId": "Gateway Id",
+      "bankName": "Gateway Name",
+      "created_at": "Created Date",
+      "createdAt": "Created Date",
+      "createdBy": "Created By",
+      "id": "ID",
+      "isDisable": "Disable",
+      "name": "Name",
+      "priority": "Priority",
+      "password": "Password",
+      "publicKey": "Public Key",
+      "privateKey": "Private Key",
+      "Certification": "Certification",
+      "terminalId": "Terminal Id",
+      "acceptorCode": "Acceptor Code",
+      "payerId": "Payer Id",
+      "accountLogin": "Account Login",
+      "cancel": "Cancel",
+      "amount": "Amount",
+      "capturePaymentResponseTime": "Capture Payment Response Time",
+      "capturePaymentTime": "Capture Payment Time",
+      "channel": "Channel",
+      "channelName": "Channel Name",
+      "customerId": "Customer Id",
+      "customerName": "Customer Name",
+      "getPeymentModeTime": "Get Peyment Mode Time",
+      "offerCode": "Offer Code",
+      "orderDetail": "Order Detail",
+      "detail": "Details",
+      "orderID": "Order ID",
+      "retrievalReferenceNumber": "Payment ID",
+      "paymentID": "Payment ID",
+      "paymentId": "Payment Id",
+      "paymentModeResponseTime": "Payment Mode Response Time",
+      "referId": "Refer Id",
+      "requestId": "Request Id",
+      "service": "Service",
+      "status": "Status",
+      "finalState": "Final State",
+      "time": "Time",
+      "duration": "Duration",
+      "transactionCode": "Transaction Code",
+      "transactionId": "Transaction Id",
+      "verifyTime": "Verify Time",
+      "more": "More Detail",
+      "queue": "Queue",
+      "total_count": "Total number of records: ",
+      "total_amount": "Total Amount: ",
+      "terminalName": "Terminal Name",
+      "accountBank": "‌Bank",
+      "accountNumber": "Account Number",
+      "channelVerifyMessage": "Channel Verify Message",
+      "channelVerifyStatusCode": "Channel Verify Status Code",
+      "sendVerify": "Send Verify",
+      "selectAll": "Select All",
+      "lastSendVerifyTime": "Last Send Verify Time",
+      "sendhistory": "Confirmation History",
+      "flow": "Flow",
+      "requestBody": "Information Sent",
+      "responseMessage": "Message Received",
+      "description": "Description",
+      "orderId": "Order Id",
+      "referenceNumber": "Reference Number",
+      "responseCode": "Response Code",
+      "verifyParams": "Verify Params",
+      "publicKeyName": "Public Key Name",
+      "privateKeyName": "Private Key Name",
+      "settlementIBAN": "Settlement IBAN",
+      "apiKey": "api key",
+      "checkUnknownTransactions": "Check Unknown Transactions",
+      "twoStepVerification": "Two Step Verification",
+      "code": "Code",
+      "domains": "Domains",
+      "ips": "IP List",
+      "interfaceId": "Interface Id",
+      "isManual": "Prioritize",
+      "technologyId": "Technology Id",
+      "bankIds": "Bank Ids",
+      "banks": "Banks",
+      "channelIds": "Channel Ids",
+      "channelTerminalIds": "Channel Terminal Ids",
+      "channelTerminals": "Channel Terminals",
+      "channels": "Channels",
+      "cron": "Cron",
+      "isFirstStepDone": "First Step",
+      "isSecondStepDone": "Second Step",
+      "isTwoStep": "Two Step",
+      "numberOfTimes": "Number Of Times",
+      "terminalIds": "Terminal Ids",
+      "terminals": "Terminals",
+      "timeBase": "Time Base"
+    }
+  },
+  "roles": {
+    "title": "Roles",
+    "select": "Select Role",
+    "list": {
+      "name": "Name",
+      "createdAt": "Created Date",
+      "description": "Description",
+      "action": "Action"
+    },
+    "create": {
+      "title": "Add New Role",
+      "edit": "Edit Role",
+      "name": "Name",
+      "description": "Description",
+      "cancel": "Cancel",
+      "feature": "Features",
+      "featureName": "Feature Name",
+      "error": {
+        "~": "Error",
+        "selectFeature": "Select at least one feature",
+        "selectFeatureAction": "For each feature select at least one action"
+      }
+    }
+  },
+  "feature": {
+    "user_management": "Users List",
+    "role_management": "Roles List",
+    "transaction_report_management": "Transactions",
+    "dashboard_management": "Dashboard",
+    "transaction_resend_management": "Verify Transactions",
+    "terminal_management": "Terminal List",
+    "channel_terminal_management": "Channel Terminal List",
+    "test_payment_management": "Sample",
+    "channel_management": "Channel List",
+    "audit_log_management": "Users Report",
+    "archive": "Archive",
+    "service_managment": "Services",
+    "event_managment": "Events",
+    "transaction_report_page_managment": "Reports"
+  },
+  "technology": {
+    "title": "Technologies",
+    "list": {
+      "action": "Action",
+      "name": "Name"
+    },
+    "create": {
+      "title": "Add New Technology",
+      "name": "Name",
+      "edit": "Edit Technology",
+      "success": "Technology added successfully",
+      "cancel": "Cancel",
+      "delete": "Delete Technology"
+    }
+  },
+  "service": {
+    "title": "Services",
+    "list": {
+      "action": "Action",
+      "name": "Name",
+      "code": "Code"
+    },
+    "create": {
+      "title": "Add New Service",
+      "name": "Name",
+      "edit": "Edit Service",
+      "success": "Service added successfully",
+      "cancel": "Cancel",
+      "code": "Code",
+      "delete": "Delete Service"
+    },
+    "channel":{
+      "notFound":"There is no active channel for this service",
+      "name":"Name",
+      "code":"Code",
+      "isControll":"Service control",
+      "active":"active",
+      "inactive":"inactive"
+    }
+  },
+  "event": {
+    "~": "Event",
+    "title": "Event Management",
+    "list": {
+      "title": "Events List",
+      "action": "Action",
+      "run": "Run",
+      "runAgain": "Run Again",
+      "restore": "Restore",
+      "name": "Name",
+      "nextRun": "Next Run",
+      "type": "Run Type",
+      "isFirstStepDone": "First Step"
+    },
+    "create": {
+      "title": "Add New Event",
+      "edit": "Edit Event",
+      "name": "Name",
+      "description": "Description",
+      "type": "Run Type",
+      "action": "Action",
+      "isEnable": "Enable",
+      "numberOfTimes": "Number Of Times",
+      "numberOfTimesUnlimited": "Unlimited",
+      "select": {
+        "bank": "Select Banks",
+        "terminal": "Select Terminals",
+        "channel": "Select Channels",
+        "terminalsOfChannel": "Select Terminals of Channel",
+        "technology": "Select Technologies",
+        "service": "Select Services"
+      },
+      "bankIds": "Banks",
+      "terminalIds": "Terminals",
+      "channelIds": "Channels",
+      "duration": "Restore Duration",
+      "cron": "Cron",
+      "cancel": "Cancel",
+      "technologyIds": "Technologies",
+      "serviceIds": "Services"
+    },
+    "type": {
+      "timeBase": "Time Base",
+      "manual": "Manual"
+    },
+    "action": {
+      "enable": "Enable",
+      "disable": "Disable"
+    },
+    "isFirstStepDone": {
+      "true": "Done",
+      "false": "Not Done"
+    },
+    "selectAtLeastOne": "Select at least one"
+  },
+  "cron": {
+    "helpText": "Values",
+    "samples": "Samples"
+  },
+  "reports": {
+    "~": "Reports",
+    "generalreports": "General Reports",
+    "transactionreportbychannel": "Transactions by Channel",
+    "transactionreportbychannelandstatus": "Transactions by Channel and Transaction Status (4-Step Status)",
+    "transactionreportbychannelandmonth": "Successful or Unsuccessful Transactions by Channel with Month-over-Month or Week-over-Week Comparison",
+    "transactionreportbybank": "Transactions by Bank",
+    "transactionreportbymonth": "Transactions by Month",
+    "transactionreportbymonthandbank": "Transactions by Gateway and Month",
+    "successfulltransactionreportbychannel": "Successful Transactions by Channel",
+    "successfulltransactionreportbybank": "Successful Transactions by Gateway",
+    "transactionfrequencyreportbychannel": "Transaction Frequency by Channel",
+    "reconfirmationfrequencyreportbychannel": "Reconfirmation Frequency by Channel",
+    "transactionreportbyservice": "Transactions by Service",
+    "transactionreportbytechnology": "Transactions by Technology",
+    "filter": {
+      "dataFilterType": {
+        "~": "Date Filter Type",
+        "week": "Filter by Week",
+        "date": "Filter by Date"
+      },
+      "fromYear": "From Year",
+      "fromWeek": "From Week",
+      "toYear": "To Year",
+      "toWeek": "To Week",
+      "from": "From Date",
+      "to": "To Date",
+      "binType": {
+        "~": "Display Type",
+        "1": "Month and Day",
+        "2": "Month and Year",
+        "3": "Year",
+        "4": "Week and Year"
+      },
+      "chartTypes": {
+        "~": "Chart Type",
+        "bar": "Bar Chart",
+        "line": "Line Chart",
+        "pie": "Pie Chart"
+      },
+      "channel": "Channels",
+      "bank": "Gateways",
+      "terminal": "Terminals",
+      "dataType": {
+        "~": "Data Type Filter",
+        "all": "All",
+        "success": "Successful",
+        "unsuccess": "Unsuccessful"
+      }
+    },
+    "monthes": {
+      "1": "January",
+      "2": "February",
+      "3": "March",
+      "4": "April",
+      "5": "May",
+      "6": "June",
+      "7": "July",
+      "8": "August",
+      "9": "September",
+      "10": "October",
+      "11": "November",
+      "12": "December"
+    },
+    "form": {
+      "search": "Search..",
+      "cancel": "Cancel",
+      "exelFileName": "Enter the title of the output file",
+      "download": "Download"
+    }
+  }
+}

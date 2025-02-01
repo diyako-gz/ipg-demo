@@ -1,0 +1,1431 @@
+{
+  "gateway": "درگاه",
+  "lang": "EN",
+  "sidebar": {
+    "dashboard": {
+      "~": "داشبورد",
+      "transaction": "گزارشات تراکنشها",
+      "verify": "تایید تراکنشها"
+    },
+    "terminal": {
+      "~": "پایانه",
+      "list": "لیست پایانه ها"
+    },
+    "channel": {
+      "~": "کانال",
+      "list": "لیست کانال ها",
+      "channelTerminal": "پایانه کانال"
+    },
+    "users": {
+      "~": "کاربران",
+      "list": "لیست کاربران",
+      "report": "گزارشات کاربران"
+    },
+    "roles": {
+      "~": "نقش ها",
+      "list": "لیست نقش ها"
+    },
+    "sample": {
+      "~": "نمونه عملیات پرداخت",
+      "invoice": "صورتحساب"
+    },
+    "version": {
+      "~": "نسخه"
+    },
+    "technology": {
+      "~": "تکنولوژی ها",
+      "list": "لیست تکنولوژی ها"
+    },
+    "service": {
+      "~": "سرویس ها",
+      "list": "لیست سرویس ها"
+    },
+    "event": {
+      "~": "رویدادها",
+      "list": "لیست رویدادها"
+    }
+  },
+  "channel": {
+    "~": "کانال",
+    "title": "مدیریت کانال ها",
+    "list": {
+      "title": "لیست کانال ها",
+      "apiKey": "کلید api",
+      "createdAt": "تاریخ ایجاد",
+      "createdBy": "ایجاد شده توسط",
+      "ips": "IP",
+      "isManual": "اولویت بندی",
+      "manualPriority": "اولویت بندی دستی",
+      "timePriority": "مدت زمان تراکنش",
+      "domain": "دامنه",
+      "name": "نام",
+      "channelID":"شناسه کانال",
+      "code": "شناسه",
+      "action": "عملیات",
+      "checkUnknownTransactions": "بررسی تراکنشهای نامعلوم",
+      "twoStepVerification": "تراکنش دو مرحله ای",
+      "interfaceId": "شناسه رابط",
+      "isServiceEnable": {
+        "~": "بررسی سرویس ها",
+        "enable": "فعال کردن بررسی سرویس ها",
+        "disable": "غیر فعال کردن بررسی سرویس ها"
+      },
+      "isEnable": {
+        "0": "همه",
+        "1": "فعال",
+        "2": "غیرفعال"
+      }
+    },
+    "create": {
+      "title": "ایجاد کانال",
+      "edit": "ویرایش کانال",
+      "apiKey": "کلید api",
+      "createdAt": "تاریخ ایجاد",
+      "ips": "IP",
+      "isManual": "مرتب سازی بر اساس",
+      "domain": "دامنه",
+      "name": "نام",
+      "code": "شناسه",
+      "cancel": "لغو",
+      "priority": "اولویت بندی دستی",
+      "time": "مدت زمان تراکنش",
+      "checkUnknownTransactions": "بررسی تراکنشهای نامعلوم",
+      "twoStepVerification": "تراکنش دو مرحله ای",
+      "interfaceId": "شناسه رابط"
+    },
+    "terminal": {
+      "~": "مدیریت پایانه های کانال {{ name }}",
+      "service": "سرویس",
+      "select": "انتخاب پایانه",
+      "add": "افزودن",
+      "edit": "ویرایش",
+      "list": "لیست پایانه های کانال",
+      "addToChannel": "افزودن پایانه به کانال",
+      "editChannelTerminal": "ویرایش پایانه کانال",
+      "allService": "همه سرویس ها"
+    }
+  },
+  "terminal": {
+    "~": "پایانه",
+    "title": "مدیریت پایانه ها",
+    "isEnable": "فقط پایانه های فعال",
+    "list": {
+      "title": "لیست پایانه ها",
+      "acceptorId": "شناسه پذیرنده",
+      "acceptorCode": "کد پذیرنده",
+      "bankId": "شناسه بانک",
+      "bankName": "نام درگاه",
+      "createdAt": "تاریخ ایجاد",
+      "createdBy": "ایجاد شده توسط",
+      "id": "شناسه",
+      "isDisable": "غیر فعال",
+      "isEnable": "فعال",
+      "name": "نام",
+      "priority": "اولویت",
+      "password": "کلمه عبور",
+      "publicKey": "کلید عمومی",
+      "privateKey": "کلید خصوصی",
+      "Certification": "گواهی",
+      "terminalId": "شناسه پایانه",
+      "action": "عملیات",
+      "select": "انتخاب",
+      "service": "سرویس",
+      "serviceCode": "کد سرویس",
+      "payerId": "شناسه پرداخت کننده",
+      "accountLogin": "پین فروشنده",
+      "accountBank": "بانک",
+      "accountNumber": "شماره حساب"
+    },
+    "create": {
+      "title": "ایجاد پایانه",
+      "edit": "ویرایش پایانه",
+      "selectBank": "انتخاب درگاه",
+      "acceptorId": "شناسه پذیرنده",
+      "bankId": "شناسه درگاه",
+      "bankName": "نام درگاه",
+      "createdAt": "تاریخ ایجاد",
+      "createdBy": "ایجاد شده توسط",
+      "id": "شناسه",
+      "isDisable": "غیر فعال",
+      "name": "نام",
+      "priority": "اولویت",
+      "password": "کلمه عبور",
+      "publicKey": "کلید عمومی",
+      "privateKey": "کلید خصوصی",
+      "Certification": "گواهی",
+      "terminalId": "شناسه پایانه",
+      "acceptorCode": "کد پذیرنده",
+      "payerId": "شناسه پرداخت کننده",
+      "accountLogin": "پین فروشنده",
+      "accountLogin_IranZamain": "نام کاربری",
+      "accountBank": "بانک",
+      "accountNumber": "شماره حساب",
+      "uploadIcon": "آپلود آیکون",
+      "selectFile": "فایل مورد نظر بایدکمتر از 500kB باشد"
+    }
+  },
+  "transaction": {
+    "~": "تراکنش ها",
+    "list": {
+      "~": "لیست",
+      "amount": "مبلغ",
+      "bankId": "شناسه درگاه",
+      "bankName": "نام درگاه",
+      "getPeymentModeTime": "زمان دریافت لیست درگاه ها",
+      "capturePaymentResponseTime": "زمان انتقال به درگاه",
+      "capturePaymentTime": "زمان درخواست برای انتقال به درگاه",
+      "paymentModeResponseTime": "زمان ارسال لیست درگاه ها",
+      "verifyTime": "زمان بسته شدن تراکنش ( موفق یا ناموفق )",
+      "time": "زمان",
+      "duration": "مدت زمان",
+      "channel": "کانال",
+      "channelName": "نام کانال",
+      "customerId": "شناسه مشتری",
+      "customerName": "نام مشتری",
+      "offerCode": "کد محصول",
+      "orderDetail": "جزئیات سفارش",
+      "detail": "جزئیات",
+      "orderID": "شناسه سفارش",
+      "retrievalReferenceNumber": "شناسه پرداخت",
+      "paymentID": "شناسه پرداخت",
+      "paymentId": "شناسه پرداخت",
+      "referId": "کد ارجاع",
+      "requestId": "شناسه درخواست",
+      "service": "سرویس",
+      "status": "وضعیت",
+      "finalState": "حالت نهایی تراکنش",
+      "transactionCode": "کد تراکنش",
+      "transactionId": "شناسه تراکنش",
+      "more": "جزئیات بیشتر",
+      "queue": "صف",
+      "total_count": "تعداد تراکنش: ",
+      "total_amount": "مبلغ تراکنش: ",
+      "terminalName": "نام پایانه",
+      "accountBank": "بانک",
+      "accountNumber": "شماره حساب",
+      "id": "شناسه",
+      "channelVerifyMessage": "آخرین پیام دریافتی از کانال",
+      "channelVerifyStatusCode": "آخرین استاتوس کد دریافتی از کانال",
+      "requestTime": "زمان ارسال درخواست",
+      "responseTime": "زمان دریافت پاسخ",
+      "requestDuration": "مدت زمان انتظار دریافت پاسخ  از کانال",
+      "isTimeout": "درخواست تایم اوت شده است",
+      "sendVerify": "ارسال وضعیت تراکنش به کانال",
+      "selectAll": "انتخاب همه",
+      "lastSendVerifyTime": "زمان آخرین ارسال وضعیت تراکنش به کانال",
+      "sendhistory": "تاریخچه تایید",
+      "flow": "روند",
+      "requestBody": "اطلاعات ارسال شده",
+      "responseMessage": "پیام دریافت شده",
+      "description": "توضیحات",
+      "orderId": "شناسه سفارش",
+      "referenceNumber": "شناسه پرداخت",
+      "responseCode": "وضعیت",
+      "verifyParams": "پارامترهای تایید تراکنش",
+      "scheduler": "بسته شدن اتوماتیک",
+      "state_time": "مدت زمان  حضور در روند",
+      "search-description": "با زدن دکمه جستجو ، جستجو روی تراکنش های ۶ ماه گذشته انجام می شود . برای جستجوی تراکنش های قدیمی باید دسترسی مربوطه را دارا باشید و تیک دکمه آرشیو را زده باشید.",
+      "twoStepVerification": "تراکنش دو مرحله ای",
+      "receiveVerification": "دریافت تائید تراکنش از کانال (تراکنش دومرحله ای )",
+      "archiveDates": {
+        "1": "آرشیو شامل تراکنش از تاریخ",
+        "2": "تا تاریخ",
+        "3": "می باشد"
+      }
+    },
+    "form": {
+      "~": "جستجوی پیشرفته",
+      "start": "از",
+      "end": "تا",
+      "totalCount": "مجموع تعداد تراکنش ها",
+      "totalAmount": "مجموع مبالغ",
+      "bankId": "درگاه",
+      "channelcode": "کانال",
+      "service": "سرویس",
+      "orderId": "شناسه سفارش",
+      "offerCode": "کد کالا",
+      "transactionId": "شناسه پرداخت",
+      "customerName": "نام مشتری",
+      "fileName": "نام فایل",
+      "status": "وضعیت",
+      "finalState": "حالت نهایی تراکنش",
+      "search": "جستجو..",
+      "cancel": "لغو",
+      "exelFileName": "عنوان فایل خروجی را وارد کنید",
+      "download": "دانلود",
+      "accountBank": "بانک",
+      "accountNumber": "شماره حساب",
+      "paymentModeId": "پایانه",
+      "verify": "تایید تمامی تراکنش ها",
+      "verify-selected": "تایید انتخاب شده ها",
+      "technology": "تکنولوژی",
+      "amountFrom": "از مبلغ",
+      "amountTo": "تا مبلغ"
+    },
+    "status": {
+      "getPaymentMode": "دریافت درگاه",
+      "capturePaymentMode": "دریافت آدرس درگاه انتخاب شده",
+      "callback": "خطا در تایید تراکنش",
+      "done": "تراکنش انجام شده",
+      "backFromTheGateway": "برگشت از درگاه"
+    },
+    "state": {
+      "unknow": "نامعلوم",
+      "successfull": "موفق",
+      "unsuccessfull": "ناموفق",
+      "pending": "در حال انجام"
+    },
+    "verify": {
+      "not-send": "عدم ارسال",
+      "queueing": "در صف ارسال",
+      "sent": "ارسال موفق"
+    }
+  },
+  "invoice": {
+    "amount": "مبلغ",
+    "offerCode": "کد کالا",
+    "service": "سرویس",
+    "channelcode": "کانال",
+    "customerId": "شناسه مشتری",
+    "customerName": "نام مشتری",
+    "callBackUrl": "آدرس برگشت",
+    "customerMobile": "شماره تماس",
+    "redirectUrl": "تغییر مسیر به",
+    "verifyParams": "پارامترهای تایید تراکنش",
+    "verifyUrl": "آدرس تایید تراکنش",
+    "orderDetail": "جزئیات",
+    "invoicing": "صدور فاکتور",
+    "payerId": "شناسه پرداخت کننده",
+    "invoice": {
+      "~": "صورتحساب",
+      "hi": "سلام",
+      "thanks": "ممنونیم از خرید شما",
+      "issueTracking": "شماره پیگیری",
+      "order": "سفارش",
+      "orderDetail": "توضیحات و مشخصات",
+      "count": "تعداد",
+      "amount": "هزینه نهایی",
+      "return": "برگشت"
+    }
+  },
+  "select": "انتخاب کنید",
+  "amount": "مبلغ",
+  "pay_queue": "صف پرداخت",
+  "rate": "درصد",
+  "time_on_site": "مدت زمان انتظار",
+  "completion": "مدت زمان تکمیل",
+  "header": {
+    "welcome": "{{ userName }} خوش آمدید",
+    "user-setting": {
+      "title": "تنظیمات کاربر"
+    }
+  },
+  "dashboard": {
+    "title": "پیشخوان",
+    "welcome": {
+      "title": "خوش آمدید",
+      "text": "به پنل مدیریت خوش آمدید"
+    },
+    "form": {
+      "~": "جستجوی پیشرفته",
+      "start": "از",
+      "end": "تا",
+      "service": "سرویس",
+      "bank": "درگاه",
+      "channel": "کانال",
+      "channelCode": "کانال",
+      "serviceId": "شناسه سرویس",
+      "status": "وضعیت",
+      "state": "حالت نهایی تراکنش",
+      "terminal": "پایانه",
+      "bankId": "درگاه",
+      "displayBase": "نمایش بر اساس",
+      "search": "جستجو..",
+      "cancel": "لغو"
+    },
+    "chart": "تراکنش مشتریان",
+    "totalAmount": "مبلغ تراکنش",
+    "totalCount": "تعداد تراکنش",
+    "channelCount": "تعداد کانال",
+    "terminalCount": "تعداد پایانه",
+    "type": {
+      "1": "گرفتن توکن",
+      "2": "ماندن در PSP",
+      "3": "ارسال وضعیت تراکنش به کانال"
+    },
+    "average": "میانگین",
+    "enableFrom": "فعال از"
+  },
+  "auth": {
+    "login": "ورود",
+    "title": "ورود به IPG",
+    "logout": "خروج از حساب",
+    "register": "ثبت نام",
+    "fullname": "نام",
+    "email": "ایمیل",
+    "password": "رمز عبور",
+    "username": "نام کاربری",
+    "forget-password": "فراموشی رمز عبور",
+    "confirm-password": "تايید رمز عبور",
+    "send-email": "ارسال",
+    "return-to-login": "بازگشت به صفحه لاگین"
+  },
+  "confirm": {
+    "message": "آیا اطمینان دارید؟"
+  },
+  "entity": {
+    "user": "کاربر",
+    "role": "نقش",
+    "not-found": "موردی یافت نشد",
+    "notifications-settings": "تنظیمات اعلان ها",
+    "bank": "درگاه",
+    "responsible": "مسئول درگاه",
+    "modem": "مودم",
+    "sim-card": "سیم کارت",
+    "channel": "کانال",
+    "terminal": "پایانه",
+    "terminalForChannel": "پایانه برای کانال",
+    "technology": "تکنولوژی",
+    "service": "سرویس",
+    "event": "رویداد"
+  },
+  "operation": {
+    "select": {
+      "title": "انتخاب",
+      "message": "انتخاب شد"
+    },
+    "edit": {
+      "title": "ویرایش",
+      "message": "ویرایش شد"
+    },
+    "create": {
+      "title": "ایجاد",
+      "message": "ایجاد شد"
+    },
+    "add": {
+      "title": "افزودن",
+      "message": "افزوده شد"
+    },
+    "delete": {
+      "title": "حذف",
+      "message": "حذف شد"
+    },
+    "batch-delete": {
+      "title": "حذف",
+      "message": "حذف شدند"
+    },
+    "swap": {
+      "title": "تبادل",
+      "message": "مبادله شد"
+    },
+    "recalculate": {
+      "title": "محاسبه مجدد",
+      "message": "مجدداً محاسبه شد"
+    },
+    "upload": {
+      "title": "بارگذاری",
+      "message": "بارگذاری شد"
+    },
+    "active": {
+      "title": "فعال کردن",
+      "message": "فعال شد"
+    },
+    "deactive": {
+      "title": "غیرفعال کردن",
+      "message": "غیرفعال شد"
+    },
+    "export": {
+      "title": "گزارش",
+      "message": "ایجاد شد"
+    },
+    "message": {
+      "title": "پیغام",
+      "message": "پیغام ارسال شد"
+    },
+    "changeState": {
+      "title": "تغییر وضعیت",
+      "message": "تغییر کرد"
+    },
+    "makeAdministrator": {
+      "title": " تغییر نوع حساب به ادمین",
+      "message": "تغییر کرد"
+    },
+    "makeStandardUser": {
+      "title": " تغییر نوع حساب به کاربر معمولی",
+      "message": "تغییر کرد"
+    },
+    "run": {
+      "title": "اجرای",
+      "message": "اجرا شد"
+    },
+    "runAgain": {
+      "title": "اجرای مجدد",
+      "message": "اجرا شد"
+    },
+    "restore": {
+      "title": "بازیابی",
+      "message": "بازیابی شد"
+    }
+  },
+  "notify": {
+    "success": {
+      "title": "{{ operation.title }} {{ entity }}",
+      "message": "{{ name }} با موفقیت {{ operation.message }}"
+    },
+    "operation-success": {
+      "title": "موفق",
+      "message": "عملیات با موفقیت انجام شد"
+    },
+    "request": {
+      "title": "منتظر بمانید",
+      "message": "درحال برقراری ارتباط"
+    },
+    "select-store": {
+      "title": "انتخاب فروشگاه",
+      "message": "شما باید ابتدا یک فروشگاه انتخاب کنید"
+    },
+    "login-required": {
+      "title": "نیازمند ورود",
+      "message": "شما باید ابتدا وارد حساب کاربریتان بشوید"
+    },
+    "login-success": {
+      "title": "ورود موفق",
+      "message": "شما با موفقیت وارد شدید"
+    },
+    "logout-success": {
+      "title": "خروج",
+      "message": "شما از سیستم خارج شدید"
+    },
+    "register-success": {
+      "title": "ثبت نام موفق",
+      "message": "شما با موفقیت ثبت نام کردید"
+    },
+    "reset-pass-success": {
+      "title": "بازنشانی رمز عبور موفق",
+      "message": "رمز عبور شما با موفقیت تغییر یافت"
+    },
+    "forget-pass-success": {
+      "title": "رمز عبور جدید ارسال شد",
+      "message": "رمز عبور جدید به تلفن همراه شما ارسال شد"
+    },
+    "upload-type-error": {
+      "title": "خطا در نوع فایل",
+      "message": "\"{{ fileName }}\" قابل قبول نیست"
+    },
+    "upload-size-error": {
+      "title": "خطا در حجم فایل",
+      "message": "حجم \"{{ fileName }}\" بیش از 500kB است"
+    },
+    "select-image-overlimit": {
+      "title": "انتخاب بیش از حد",
+      "message": "نمی توانید بیش از {{ countLimit }} تصویر انتخاب کنید"
+    },
+    "retry-verify": {
+      "title": "ارسال وضعیت تراکنش به کانال",
+      "message": "تعداد {{ count }} تراکنش تایید شد"
+    },
+    "date-picker": {
+      "title": "بازه تاریخ",
+      "message": "تاریخ شروع از تاریخ پایان بزرگتر است"
+    }
+  },
+  "error": {
+    "title": "خطا",
+    "400": {
+      "title": "درخواست نادرست",
+      "message": "اطلاعات وارد شده صحیح نمی باشد"
+    },
+    "401": {
+      "title": "غیرمجاز",
+      "message": "دسترسی مدیر لازم است"
+    },
+    "404": {
+      "title": "یافت نشد",
+      "message": "مقدار مورد نظر یافت نشد"
+    },
+    "500": {
+      "title": "خطای داخلی سرور",
+      "message": "لطفاً دوباره امتحان کنید"
+    },
+    "501": {
+      "title": "خطای داخلی سرور",
+      "message": "لطفاً دوباره امتحان کنید"
+    },
+    "502": {
+      "title": "خطای داخلی سرور",
+      "message": "لطفاً دوباره امتحان کنید"
+    },
+    "503": {
+      "title": "خطای داخلی سرور",
+      "message": "لطفاً دوباره امتحان کنید"
+    },
+    "504": {
+      "title": "خطای داخلی سرور",
+      "message": "لطفاً دوباره امتحان کنید"
+    },
+    "4001": {
+      "title": "درخواست نادرست",
+      "message": "پارامترهای ورودی نامعتبر است : خطای Bind"
+    },
+    "4002": {
+      "title": "خطای اعتبار سنجی",
+      "message": "پارامترهای ورودی نامعتبر است: خطای اعتبار سنجی"
+    },
+    "4003": {
+      "title": "ورود ممکن نیست",
+      "message": "نام کاربری یا کلمه عبور اشتباه است"
+    },
+    "4004": {
+      "title": "یافت نشد",
+      "message": "مقدار مورد نظر یافت نشد"
+    },
+    "4005": {
+      "title": "خطای Json Parse",
+      "message": "تجزیه پرونده JSON امکان پذیر نیست"
+    },
+    "4006": {
+      "title": "ضروری",
+      "message": "مقدار ضروری است"
+    },
+    "4007": {
+      "title": "تغییر آدرس",
+      "message": "امکان هدایت وجود ندارد"
+    },
+    "4008": {
+      "title": "کلمه عبور",
+      "message": "رمز عبور مطابقت ندارد"
+    },
+    "4009": {
+      "title": "ورود به سیستم",
+      "message": "ورود به سیستم الزامی است"
+    },
+    "40010": {
+      "title": "دسترسی",
+      "message": "شما مجوز ندارید"
+    },
+    "40011": {
+      "title": "دسترسی",
+      "message": "شما نماینده نیستید"
+    },
+    "40012": {
+      "title": "ورود تکراری",
+      "message": "نمی توان این مورد را اضافه کرد"
+    },
+    "40013": {
+      "title": "بارگذاری",
+      "message": "بارگذاری این پرونده امکان پذیر نیست"
+    },
+    "40014": {
+      "title": "قالب نامعتبر است",
+      "message": "ذخیره این فرم امکان پذیر نیست"
+    },
+    "40015": {
+      "title": "کاربر غیر مجاز",
+      "message": "شما مجاز نیستید"
+    },
+    "40016": {
+      "title": "کلید",
+      "message": "کلید نامعتبر"
+    },
+    "40017": {
+      "title": "نشانه",
+      "message": "نشانه نامعتبر است"
+    },
+    "40018": {
+      "title": "کلید Api",
+      "message": "کلید Api نامعتبر است"
+    },
+    "40019": {
+      "title": "آدرس IP",
+      "message": "آدرس IP مجاز نیست"
+    },
+    "40020": {
+      "title": "درگاه پرداخت",
+      "message": "شناسه درگاه پرداخت معتبر نیست"
+    },
+    "40021": {
+      "title": "کاربر غیر مجاز",
+      "message": "لطفا دوباره وارد شوید"
+    },
+    "40022": {
+      "title": "عدم دسترسی",
+      "message": "شما دسترسی ندارید"
+    },
+    "40023": {
+      "title": "خطای بارگذاری",
+      "message": "بارگذاری امکان پذیر نیست"
+    },
+    "5001": {
+      "title": "ذخیره",
+      "message": "ذخیره امکان پذیر نیست"
+    },
+    "5002": {
+      "title": "حذف",
+      "message": "حذف امکان پذیر نیست"
+    },
+    "5003": {
+      "title": "صفحه بندی",
+      "message": "نمی توان این لیست را صفحه بندی کرد"
+    },
+    "5004": {
+      "title": "رمز عبور Hash",
+      "message": "Hash کردن رمز ورود امکان پذیر نیست"
+    },
+    "5005": {
+      "title": "خروجی",
+      "message": "صدور داده یا ترسیم نمودار امکان پذیر نیست"
+    },
+    "5006": {
+      "title": "به روز رسانی",
+      "message": "به روز رسانی امکان پذیر نیست"
+    },
+    "50010": {
+      "title": "ارسال پاسخ",
+      "message": "امکان ارسال پاسخ وجود ندارد"
+    },
+    "50012": {
+      "title": "پرونده Json",
+      "message": "قادر به تولید پرونده json نیست"
+    },
+    "50013": {
+      "title": "خواندن پرونده",
+      "message": "قادر به خواندن پرونده نیست"
+    }
+  },
+  "pagination": {
+    "first": "ابتدا",
+    "previous": "قبلی",
+    "next": "بعدی",
+    "last": "انتها"
+  },
+  "forms": {
+    "submit": "تأیید",
+    "cancel": "لغو",
+    "issue-ticket": "صدور بلیت",
+    "feedback": {
+      "required": "شما باید این فیلد را پر کنید",
+      "pattern": "مقدار وارد شده صحیح نیست",
+      "national-code": "کدملی معتبر نمی باشد",
+      "least": "حد اقل {{ least }}",
+      "max": "حد اکثر {{ max }}",
+      "value-min": "حد اقل {{ min }}",
+      "value-max": "حد اکثر {{ max }}",
+      "notmatch": "رمز عبور مطابقت ندارد",
+      "number": "عدد وارد شده صحیح نیست",
+      "low-number": "حداقل {{ num }} مجاز می باشد",
+      "big-number": "حداکثر {{ num }} مجاز می باشد"
+    },
+    "alert": {
+      "required": "نمی تواند خالی باشد",
+      "pattern": "قابل قبول نیست",
+      "least": "نمی تواند کمتر از {{ least }} باشد",
+      "max": "نمی تواند بیشتر از {{ max }} باشد",
+      "password-not-match": "تايید رمز عبور با رمز عبور وارد شده همخوانی ندارد"
+    },
+    "save": "ذخیره",
+    "edit": "ویرایش",
+    "export": "دریافت فایل",
+    "draw-chart": "نمایش نمودار",
+    "fildes": {
+      "select": "انتخاب کنید",
+      "selectAll": "انتخاب همه",
+      "clear": "حذف",
+      "all": "همه"
+    }
+  },
+  "search": "جستجو..",
+  "close": "بستن",
+  "list-empty": "چیزی برای نمایش موجود نیست",
+  "list": {
+    "empty": "چیزی برای نمایش موجود نیست",
+    "edit": "ویرایش",
+    "delete": "حذف",
+    "select": "انتخاب",
+    "view": "مشاهده",
+    "operation": "عملیات",
+    "show": "نمایش",
+    "to": "تا تاریخ",
+    "of": "از تاریخ"
+  },
+  "users": {
+    "title": "کاربران",
+    "list": {
+      "createdAt": "تاریخ ایجاد",
+      "fullname": "نام و نام خانوادگی",
+      "username": "نام کاربری",
+      "id": "شناسه",
+      "email": "پست الکترونیک",
+      "group": "گروه",
+      "status": "وضعیت",
+      "isEnable": "فعال",
+      "justEnable": "نمایش کاربران فعال",
+      "isDisable": "غیر فعال",
+      "name": "نام",
+      "last_name": "نام خانوادگی",
+      "state": "استان",
+      "city": "شهر",
+      "role": "نقش",
+      "action": "عملیات",
+      "isAdmin": "کاربر ادمین",
+      "admin": "تبدیل به کاربر ادمین",
+      "standard": "تبدیل به کاربر معمولی",
+      "lastLogin": "آخرین ورود"
+    },
+    "create": {
+      "title": "افزودن کاربر",
+      "edit": "ویرایش کاربر",
+      "username": "نام کاربری",
+      "fullname": "نام و نام خانوادگی",
+      "email": "پست الکترونیک",
+      "phone": "شماره تماس",
+      "deactivated": "غیرفعال",
+      "admin": "کاربر ادمین",
+      "standard": "کاربر معمولی",
+      "super_admin": "سوپر ادمین",
+      "group": "گروه",
+      "password": "کلمه عبور",
+      "confirm_password": "تايید کلمه عبور",
+      "success": "کاربر با موفقیت ایجاد شد",
+      "name": "نام",
+      "last_name": "نام خانوادگی",
+      "state": "استان",
+      "city": "شهر",
+      "role": "نقش",
+      "cancel": "لغو",
+      "isWebServiceUser":" وب سرویس",
+      "webServiceUser":"کاربر وب سرویس"
+
+    },
+    "setting": {
+      "profile": {
+        "title": "پروفایل کاربر",
+        "name": "نام و نام خانوادگی",
+        "email": "پست الکترونیک"
+      },
+      "config": "تنظیمات کاربر",
+      "change-password": {
+        "title": "تغییر رمز عبور",
+        "current": "رمز عبور فعلی",
+        "new": "رمز عبور جدید",
+        "confirm": "تایید رمز عبور جدید"
+      }
+    }
+  },
+  "notification": {
+    "title": "اعلان ها",
+    "empty": "اعلانی وجود ندارد",
+    "Comment": "یک نظر جدید",
+    "Message": "یک پیغام جدید",
+    "mark-all-as-read": "علامت گذاری همه بعنوان خوانده شده",
+    "read_all": "مشاهده تمامی اعلان ها",
+    "refresh": "بارگذاری مجدد اعلان ها",
+    "list": {
+      "title": "اطلاع رسانی ها"
+    },
+    "view": {
+      "title": "مشاهده اطلاع رسانی"
+    }
+  },
+  "user": {
+    "account": "حساب کاربری"
+  },
+  "banks": {
+    "title": "درگاه ها",
+    "list": {
+      "name": "نام",
+      "branch": "شعبه",
+      "state": "استان",
+      "city": "شهر"
+    },
+    "create": {
+      "title": "افزودن درگاه",
+      "edit": "ویرایش درگاه",
+      "bank-info": "اطلاعات درگاه",
+      "bank-address": "آدرس درگاه",
+      "name": "نام",
+      "branch": "شعبه",
+      "state": "استان",
+      "city": "شهر",
+      "code": "کد درگاه",
+      "address": "آدرس درگاه",
+      "lat": "عرض جغرافیای",
+      "lng": "طول جغرافیایی"
+    },
+    "responsible": {
+      "title": "لیست افراد مسئول درگاه",
+      "list": {
+        "name": "نام",
+        "last_name": "نام خانوادگی",
+        "role": "نقش"
+      },
+      "create": {
+        "title": "افزودن مسئول درگاه",
+        "edit": "ویرایش مسئول درگاه",
+        "name": "نام",
+        "last_name": "نام خانوادگی",
+        "role": "نقش"
+      }
+    }
+  },
+  "modems": {
+    "title": "لیست مودم‌ها",
+    "list": {
+      "IMEI": "IMEI",
+      "serial": "سریال مودم",
+      "sim_card_number": "شماره سیم کارت",
+      "sim_card_serial": "سریال سیم کارت"
+    },
+    "create": {
+      "title": "افزودن مودم",
+      "edit": "ویرایش مودم",
+      "imei": "IMEI",
+      "serial": "سریال مودم",
+      "barcode": "بارکد",
+      "type": "نوع"
+    }
+  },
+  "sim-cards": {
+    "title": "لیست سیم کارت‌ها",
+    "list": {
+      "barcode": "بارکد",
+      "sim_number": "شماره سیم کارت",
+      "sim_serial": "سریال سیم کارت"
+    },
+    "create": {
+      "title": "افزودن سیم کارت",
+      "edit": "ویرایش سیم کارت",
+      "sim_serial": "سریال سیم کارت",
+      "sim_number": "شماره سیم کارت",
+      "barcode": "بارکد"
+    }
+  },
+  "tickets": {
+    "title": "تیکت ها",
+    "list": {
+      "id": "شناسه تیکت",
+      "title": "عنوان",
+      "date": "تاریخ",
+      "hour": "ساعت",
+      "service": "سرویس",
+      "service_type": "نوع سرویس"
+    },
+    "create": {}
+  },
+  "back": "بازگشت",
+  "successful": "موفق",
+  "unsuccessful": "ناموفق",
+  "percent": "درصد",
+  "notifications": {
+    "title": "Notifications List",
+    "list": {
+      "category": "Category",
+      "type": "Type",
+      "emailDeliveredAt": "Email Delivered At",
+      "smsDeliveredAt": "Sms Delivered At",
+      "user": "User Fullname",
+      "mission": "Mission"
+    },
+    "view": {
+      "title": "View Notification",
+      "category": "Category",
+      "type": "Type",
+      "emailDeliveredAt": "Email Delivered At",
+      "smsDeliveredAt": "Sms Delivered At",
+      "message": "Message",
+      "mission": "Mission",
+      "mission_priority": "Mission Priority",
+      "mission_scenario": "Mission Scenario",
+      "mission_status": "Mission Status",
+      "user": "User Fullname",
+      "user_role": "User Role",
+      "user_cell": "Cellphone Number",
+      "user_email": "User Email"
+    }
+  },
+  "report": {
+    "title": "Report",
+    "chart": {
+      "title": "Chart"
+    },
+    "table": {
+      "title": "Table"
+    }
+  },
+  "requests": {
+    "title": "Requests",
+    "list": {
+      "status": "Status",
+      "type": "Type"
+    },
+    "create": {
+      "title": "Add New Request",
+      "requestType": "Request Type",
+      "user": "User"
+    },
+    "detail": {
+      "title": "Request Detail"
+    },
+    "history": {
+      "name": "Name",
+      "apiRoute": "API Route",
+      "description": "Description",
+      "fullname": "Full Name",
+      "emailAddress": "Email Address",
+      "cellphoneNumber": "Cell Phone Number",
+      "role": "Role",
+      "comment": "Comment"
+    }
+  },
+  "transactions": {
+    "title": "تراکنش ها",
+    "list": {
+      "userAgent": "User Agent",
+      "website": "Website",
+      "merchantInvoiceID": "Merchant Invoice ID",
+      "payerFullname": "Payer Fullname",
+      "payerEmailAddress": "Payer Email Address",
+      "psp": "PSP",
+      "description": "Description",
+      "select": "Select"
+    },
+    "create": {
+      "title": "Add New Transaction"
+    },
+    "view": {
+      "title": "View Transaction",
+      "header": "Transaction Detail"
+    }
+  },
+  "none": "---",
+  "notFoundText": "مقداری یافت نشد",
+  "attention": "توجه!",
+  "form": {
+    "yes": "بله",
+    "no": "خیر",
+    "feedback": {
+      "required": "این قسمت باید پر شود!",
+      "notmatch": "رمز عبور مطابقت ندارد",
+      "minlength": "حداقل {{ e.requiredLength }} حرف باشد. ({{ e.actualLength }})",
+      "maxlength": "حداکثر {{ e.requiredLength }} حرف باشد. ({{ e.actualLength }})",
+      "max": "این فیلد نمیتواند بیشتر از {{ e.max }} باشد",
+      "min": "این فیلد نمیتواند کمتر از {{ e.min }} باشد",
+      "pattern": "مقدار وارد شده نامعتبر است"
+    }
+  },
+  "time": {
+    "day": "روز",
+    "days": "روز",
+    "hour": "ساعت",
+    "hours": "ساعت",
+    "minute": "دقیقه",
+    "minutes": "دقیقه",
+    "second": "ثانیه",
+    "seconds": "ثانیه",
+    "milisecond": "میلی ثانیه",
+    "miliseconds": "میلی ثانیه",
+    "dayofweek": "روز هفته",
+    "month": "ماه",
+    "dayofMonth": "روز ماه",
+    "week": {
+      "saturday": "شنبه",
+      "sunday": "یکشنبه",
+      "monday": "دوشنبه",
+      "tuesday": "سه شنبه",
+      "wednesday": "چهارشنبه",
+      "thursday": "پنجشنبه",
+      "friday": "جمعه"
+    }
+  },
+  "auditlog": {
+    "action": {
+      "~": "عملیات",
+      "create": "ایجاد",
+      "update": "ویرایش",
+      "remove": "حذف",
+      "login": "ورود",
+      "logout": "خروج",
+      "export": "دریافت فایل اکسل",
+      "resend_verify": "ارسال مجدد تایید",
+      "run_event": "اجرای رویداد"
+    },
+    "entity": {
+      "~": "بخش",
+      "user": "کاربران",
+      "trasnaction": "تراکنش ها",
+      "terminal": "پایانه ها",
+      "channel": "کانال ها",
+      "channel-terminal": "پایانه های کانال",
+      "user_role": "نقش های کاربر",
+      "role": "نقش ها",
+      "service": "سرویس ها",
+      "event": "رویداد ها"
+    },
+    "form": {
+      "user": "کاربر",
+      "username": "نام کاربری",
+      "entity_id": "شناسه",
+      "entity_value": {
+        "user": "نام کاربری",
+        "trasnaction": "",
+        "terminal": "نام",
+        "channel": "نام",
+        "channel-terminal": "",
+        "user_role": "نام"
+      }
+    },
+    "list": {
+      "time": "زمان",
+      "entity_value": "نام کاربری / نام",
+      "ip": "آدرس IP",
+      "api": "API",
+      "line": "خط کد",
+      "entity": {
+        "~": "بخش",
+        "user": "کاربر",
+        "trasnaction": "تراکنش",
+        "terminal": "پایانه",
+        "channel": "کانال",
+        "channel-terminal": "پایانه کانال",
+        "user_role": "نقش"
+      }
+    },
+    "details": {
+      "~": "جزئیات",
+      "api": "مسیر API",
+      "line": "خط کد",
+      "data": "اطلاعات",
+      "before": "قبل",
+      "after": "بعد",
+      "filter": "فیلتر",
+      "title": "عنوان",
+      "value": "مقدار",
+      "size": "اندازه",
+      "amount": "مبلغ",
+      "bankId": "شناسه درگاه",
+      "bankName": "نام درگاه",
+      "getPeymentModeTime": "زمان دریافت لیست درگاه ها",
+      "capturePaymentResponseTime": "زمان انتقال به درگاه",
+      "capturePaymentTime": "زمان درخواست برای انتقال به درگاه",
+      "paymentModeResponseTime": "زمان ارسال لیست درگاه ها",
+      "verifyTime": "زمان بسته شدن تراکنش ( موفق یا ناموفق )",
+      "time": "زمان",
+      "duration": "مدت زمان",
+      "channel": "کانال",
+      "channelName": "نام کانال",
+      "customerId": "شناسه مشتری",
+      "customerName": "نام مشتری",
+      "offerCode": "کد محصول",
+      "orderDetail": "جزئیات سفارش",
+      "detail": "جزئیات",
+      "orderID": "شناسه سفارش",
+      "retrievalReferenceNumber": "شناسه پرداخت",
+      "paymentID": "شناسه پرداخت",
+      "paymentId": "شناسه پرداخت",
+      "referId": "کد ارجاع",
+      "requestId": "شناسه درخواست",
+      "service": "سرویس",
+      "status": "وضعیت",
+      "finalState": "حالت نهایی تراکنش",
+      "transactionCode": "کد تراکنش",
+      "transactionId": "شناسه تراکنش",
+      "more": "جزئیات بیشتر",
+      "queue": "صف",
+      "total_count": "تعداد تراکنش: ",
+      "total_amount": "مبلغ تراکنش: ",
+      "terminalName": "نام پایانه",
+      "accountBank": "بانک",
+      "accountNumber": "شماره حساب",
+      "id": "شناسه",
+      "t_id": "شناسه",
+      "channelVerifyMessage": "آخرین پیام دریافتی از کانال",
+      "channelVerifyStatusCode": "آخرین استاتوس کد دریافتی از کانال",
+      "sendVerify": "ارسال وضعیت تراکنش به کانال",
+      "selectAll": "انتخاب همه",
+      "lastSendVerifyTime": "زمان آخرین ارسال وضعیت تراکنش به کانال",
+      "sendhistory": "تاریخچه تایید",
+      "flow": "روند",
+      "requestBody": "اطلاعات ارسال شده",
+      "responseMessage": "پیام دریافت شده",
+      "description": "توضیحات",
+      "orderId": "شناسه سفارش",
+      "referenceNumber": "شناسه پرداخت",
+      "responseCode": "وضعیت",
+      "verifyParams": "پارامترهای تایید تراکنش",
+      "scheduler": "بسته شدن اتوماتیک",
+      "channelcode": "کانال",
+      "channelCode": "کانال",
+      "customerNationalCode": "کد ملی مشتری",
+      "start": "از",
+      "end": "تا",
+      "from": "از",
+      "to": "تا",
+      "ids": "شناسه ها",
+      "paymentModeId": "پایانه",
+      "created_at": "زمان",
+      "createdAt": "زمان",
+      "name": "نام",
+      "featured": "دسترسی ها",
+      "count": "تعداد",
+      "fullname": "نام",
+      "isAdmin": "کاربر ادمین",
+      "isDisable": "غیر فعال",
+      "username": "نام کاربری",
+      "yes": "بله",
+      "no": "خیر",
+      "true": "بله",
+      "false": "خیر",
+      "acceptorId": "شناسه پذیرنده",
+      "acceptorCode": "کد پذیرنده",
+      "accountLogin": "پین فروشنده",
+      "createdBy": "ایجاد شده توسط",
+      "icon": "آیکون",
+      "password": "کلمه عبور",
+      "isEnable": "فعال",
+      "priority": "اولویت",
+      "publicKey": "کلید عمومی",
+      "privateKey": "کلید خصوصی",
+      "Certification": "گواهی",
+      "terminalId": "شناسه پایانه",
+      "action": "عملیات",
+      "select": "انتخاب",
+      "payerId": "شناسه پرداخت کننده",
+      "publicKeyName": "Public Key Name",
+      "privateKeyName": "Private Key Name",
+      "settlementIBAN": "Settlement IBAN",
+      "apiKey": "کلید api",
+      "checkUnknownTransactions": "بررسی تراکنشهای نامعلوم",
+      "twoStepVerification": "تراکنش دو مرحله ای",
+      "code": "کد",
+      "domains": "دامنه ها",
+      "ips": "لیست IP ها",
+      "interfaceId": "شناسه رابط",
+      "isManual": "اولویت بندی",
+      "technologyId": "شناسه تکنولوژی",
+      "bankIds": "شناسه درگاه ها",
+      "banks": "درگاه ها",
+      "channelIds": "شناسه کانال ها",
+      "channelTerminalIds": "شناسه پایانه های کانال",
+      "channelTerminals": "پایانه های کانال",
+      "channels": "کانال ها",
+      "cron": "زمان اجرا",
+      "isFirstStepDone": "مرحله اول",
+      "isSecondStepDone": "مرحله دوم",
+      "isTwoStep": "دو مرحله ای",
+      "numberOfTimes": "تعداد دفعات اجرا",
+      "terminalIds": "شناسه پایانه ها",
+      "terminals": "پایانه ها",
+      "timeBase": "زمان دار"
+    }
+  },
+  "roles": {
+    "title": "نقش ها",
+    "select": "انتخاب نقش",
+    "selected": "نقش انتخاب شده",
+    "list": {
+      "name": "نام",
+      "createdAt": "تاریخ ایجاد",
+      "description": "توضیحات",
+      "action": "عملیات"
+    },
+    "create": {
+      "title": "افزودن نقش",
+      "edit": "ویرایش نقش",
+      "name": "نام",
+      "description": "توضیحات",
+      "cancel": "لغو",
+      "feature": "دسترسی ها",
+      "featureName": "نام دسترسی",
+      "error": {
+        "~": "خطا",
+        "selectFeature": "حداقل یک دسترسی انتخاب کنید",
+        "selectFeatureAction": "برای هر دسترسی حداقل یک عملیات انتخاب کنید"
+      }
+    }
+  },
+  "feature": {
+    "user_management": "لیست کاربران",
+    "role_management": "لیست نقش ها",
+    "transaction_report_management": "گزارش تراکنشها",
+    "dashboard_management": "داشبورد",
+    "transaction_resend_management": "تایید تراکنشها",
+    "terminal_management": "لیست پایانه ها",
+    "channel_terminal_management": "لیست پایانه های کانال ها",
+    "test_payment_management": "نمونه عملیات پرداخت",
+    "channel_management": "لیست کانال ها",
+    "audit_log_management": "گزارشات کاربران",
+    "archive": "آرشیو",
+    "service_managment": "لیست سرویس ها",
+    "event_managment": "لیست رویداد ها",
+    "transaction_report_page_managment": "گزارشات"
+  },
+  "technology": {
+    "title": "تکنولوژی ها",
+    "list": {
+      "action": "عملیات",
+      "name": "نام"
+    },
+    "create": {
+      "title": "افزودن تکنولوژی",
+      "name": "نام",
+      "edit": "ویرایش تکنولوژی",
+      "success": "تکنولوژی با موفقیت ایجاد شد",
+      "cancel": "لغو",
+      "delete": "حذف تکنولوژی"
+    }
+  },
+  "service": {
+    "title": "سرویس ها",
+    "list": {
+      "action": "عملیات",
+      "name": "نام",
+      "code": "کد"
+    },
+    "create": {
+      "title": "افزودن سرویس",
+      "name": "نام",
+      "edit": "ویرایش سرویس",
+      "success": "سرویس با موفقیت ایجاد شد",
+      "cancel": "لغو",
+      "code": "کد",
+      "delete": "حذف سرویس"
+    },
+    "channel":{
+      "notFound":"کانال فعالی برای این سرویس پیدا نشد",
+      "name":"نام کانال",
+      "code":"کد کانال",
+      "isControll":"کنترل سرویس",
+      "active":"فعال",
+      "inactive":"غیرفعال"
+    }
+  },
+  "event": {
+    "~": "رویداد",
+    "title": "مدیریت رویداد ها",
+    "list": {
+      "title": "لیست رویداد ها",
+      "action": "عملیات",
+      "run": "اجرا",
+      "runAgain": "اجرای مجدد",
+      "restore": "بازیابی",
+      "name": "نام",
+      "nextRun": "زمان اجرا بعدی",
+      "type": "نوع اجرا",
+      "isFirstStepDone": "مرحله اول"
+    },
+    "create": {
+      "title": "ایجاد رویداد",
+      "edit": "ویرایش رویداد",
+      "name": "نام",
+      "description": "توضیحات",
+      "type": "نوع اجرا",
+      "action": "عملیات",
+      "isEnable": "فعال",
+      "numberOfTimes": "تعداد دفعات اجرا",
+      "numberOfTimesUnlimited": "بی نهایت",
+      "select": {
+        "bank": "انتخاب درگاه ها",
+        "terminal": "انتخاب پایانه ها",
+        "channel": "انتخاب کانال ها",
+        "terminalsOfChannel": "انتخاب پایانه های کانال",
+        "technology": "انتخاب تکنولوژی ها",
+        "service": "انتخاب سرویس ها"
+      },
+      "bankIds": "درگاه ها",
+      "terminalIds": "پایانه ها",
+      "channelIds": "کانال ها",
+      "duration": "مدت زمان بازیابی",
+      "cron": "زمان اجرا",
+      "cancel": "لغو",
+      "technologyIds": "تکنولوژی ها",
+      "serviceIds": "سرویس ها"
+    },
+    "type": {
+      "timeBase": "زمان دار",
+      "manual": "دستی"
+    },
+    "action": {
+      "enable": "فعال کردن",
+      "disable": "غیر فعال کردن"
+    },
+    "isFirstStepDone": {
+      "true": "انجام شده است",
+      "false": "انجام نشده است"
+    },
+    "selectAtLeastOne": "حداقل یک مورد انتخاب کنید"
+  },
+  "cron": {
+    "helpText": "راهنمای مقادیر",
+    "samples": "نمونه ها"
+  },
+  "reports": {
+    "~": "گزارشات",
+    "generalreports":"گزارشات کلی",
+    "transactionreportbychannel": "پرداخت براساس کانال",
+    "transactionreportbychannelandstatus": "پرداخت براساس کانال و وضعیت تراکنش  ( وضعیت ۴ مرحله ای )",
+    "transactionreportbychannelandmonth": "تراکنش موفق یا ناموفق براساس هر کانال و مقایسه با ماه قبل یا هفته قبل",
+    "transactionreportbybank": "تراکنش ها براساس بانک",
+    "transactionreportbymonth": "پرداخت براساس ماه",
+    "transactionreportbymonthandbank": "تراکنش ها براساس درگاه و ماه",
+    "successfulltransactionreportbychannel": "تراکنش موفق براساس کانال",
+    "successfulltransactionreportbybank": "تراکنش موفق براساس درگاه",
+    "transactionfrequencyreportbychannel": "فراوانی تراکنش براساس کانال",
+    "reconfirmationfrequencyreportbychannel": "فراوانی تائید دوباره براساس کانال",
+    "transactionreportbyservice": "پرداخت براساس سرویس",
+    "transactionreportbytechnology": "پرداخت براساس تکنولوژی",
+    "filter": {
+      "dataFilterType": {
+        "~": "نوع فیلتر تاریخ",
+        "week": "فیلتر بر اساس هفته",
+        "date": "فیلتر بر اساس تاریخ"
+      },
+      "fromYear": "از سال",
+      "fromWeek": "از هفته",
+      "toYear": "تا سال",
+      "toWeek": "تا هفته",
+      "from": "از تاریخ",
+      "to": "تا تاریخ",
+      "binType": {
+        "~": "نوع نمایش",
+        "1": "ماه و روز",
+        "2": "ماه و سال",
+        "3": "سال",
+        "4": "هفته و سال"
+      },
+      "chartTypes": {
+        "~": "نوع نمودار",
+        "bar": "نمودار میله ای",
+        "line": "نمودار خطی",
+        "pie": "نمودار دایره ای"
+      },
+      "channel": "کانال ها",
+      "bank": "درگاه ها",
+      "terminal": "پایانه ها",
+      "dataType": {
+        "~": "فیلتر نوع اطلاعات",
+        "all": "کل",
+        "success": "موفق",
+        "unsuccess": "ناموفق"
+      }
+    },
+    "monthes": {
+      "1": "فروردین",
+      "2": "اردیبهشت",
+      "3": "خرداد",
+      "4": "تیر",
+      "5": "مرداد",
+      "6": "شهریور",
+      "7": "مهر",
+      "8": "آبان",
+      "9": "آذر",
+      "10": "دی",
+      "11": "بهمن",
+      "12": "اسفند"
+    },
+    "form": {
+      "search": "جستجو..",
+      "cancel": "لغو",
+      "exelFileName": "عنوان فایل خروجی را وارد کنید",
+      "download": "دانلود"
+    }
+  }
+}

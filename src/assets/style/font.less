@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'IRAN-SANS';
+    src        : url('../font/IRAN-SANS.TTF') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato-Regular';
+    src        : url('../font/Lato-Regular.ttf') format("truetype");
+}
+
+html {
+    body {
+        font-family: 'IRAN-SANS', 'Lato-Regular';
+        font-size  : 15px;
+
+        .size-15 {
+            font-size: 12.5px !important;
+        }
+    }
+
+    .font-en {
+        font-family: 'Lato-Regular';
+    }
+}
+
+@keyframes fa-blink {
+    0% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0.25;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    75% {
+        opacity: 0.75;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.fa-blink {
+    -webkit-animation: fa-blink .75s linear infinite;
+    -moz-animation   : fa-blink .75s linear infinite;
+    -ms-animation    : fa-blink .75s linear infinite;
+    -o-animation     : fa-blink .75s linear infinite;
+    animation        : fa-blink .75s linear infinite;
+}

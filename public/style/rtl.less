@@ -1,0 +1,33 @@
+.rtl {
+    .page-wrapper {
+        .page-content {
+            transition: padding-right .3s ease;
+
+            @media screen and (min-width: 769px) {
+                padding-right: 220px;
+                padding-left : 0;
+            }
+        }
+
+        
+
+        &.toggled {
+
+            .page-content {
+                padding-right: 0;
+            }
+        }
+    }
+
+    .page-wrapper.toggled .sidebar {
+        left : 0;
+        right: -220px;
+    }
+
+    text-align: right;
+
+    .sidebar-menu ul li a i,
+    .sidebar-menu .sidebar-dropdown div {
+        margin: 0 1px 0 0 !important;
+    }
+}

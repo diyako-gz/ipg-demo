@@ -1,0 +1,90 @@
+.accordion-custom {
+    background-color: @base-blue;
+    font-weight     : bold;
+    font-size       : 17.5px;
+    color           : #fff;
+    display         : flex;
+    justify-content : space-between;
+    padding         : 10px 15px;
+    cursor          : pointer;
+    transition      : 0.5s;
+
+    &:after {
+        content    : '+';
+        color      : #fff;
+        margin-left: 5px;
+    }
+}
+
+.accordion_special,
+.accordion,
+.accordion_specialize,
+.accordion_specializeForm {
+    //border: 1px solid @base-blue;
+    border-radius   : 9px;
+    background-color: var(--header-bg-color);
+    font-weight     : bold;
+    font-size       : 17.5px;
+    margin          : 15px 1px 0 0;
+    padding         : 10px 15px;
+    cursor          : pointer;
+    transition      : 0.5s;
+    box-shadow      : @shadow;
+
+    &:after {
+        position        : relative;
+        transform       : rotate(360deg) translate(0, -50%);
+        transform-origin: top;
+        float           : right;
+        transition      : all .3s ease-out;
+        content         : "\f107";
+        font-family     : "Font Awesome 5 Free";
+        color           : HSL(var(--color-purple));
+        font-weight     : 600;
+        font-size       : 18px;
+        top             : 12px;
+    }
+}
+
+.accordion.active {
+    border-radius: 9px 9px 0px 0px;
+
+    &:after {
+        transform: rotate(180deg) translate(0, -50%);
+    }
+}
+
+.panel {
+    max-height: 0;
+    opacity   : 0;
+    overflow  : hidden;
+    transition: opacity 0.5s ease-out, max-height 0.5s ease-out;
+
+    .panel-row {
+        background-color: var(--header-bg-color);
+        margin          : 1px 0;
+        padding         : 10px 15px;
+        box-shadow      : @shadow;
+    }
+}
+
+.panel {
+    .ipg-card {
+        border-radius: 0 0 8px 8px;
+        margin-top   : 1px;
+    }
+}
+
+.opend-panel {
+    max-height: 100%;
+    opacity   : 1;
+    overflow  : visible;
+}
+
+.rtl {
+    .accordion {
+        &:after {
+            float: left;
+        }
+    }
+}
