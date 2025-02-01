@@ -1,0 +1,137 @@
+@primary-color: #007bff;
+@secondary-color: #0056b3;
+@background-color: #f0f8ff;
+@text-color: #1a1a2e;
+@border-radius: 8px;
+@gradient: linear-gradient(135deg, @primary-color, @secondary-color);
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.full-page-grid {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  height: auto;
+  width: auto;
+
+  .left-grid,
+  .right-grid {
+    padding: 20px;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+  }
+
+  .left-grid {
+    background: #198CFF;
+    border-radius: 20px;
+  }
+  .right-grid {
+    padding: 20px;
+    background: #f5f5f5;
+    border: 1px solid #c4c4c4;
+    height: 200px;
+  }
+  .grid-detail {
+    background: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-top: 200px;
+  }
+  .details-1 {
+    display: flex;
+    width: 420px;
+    font-size: 28px;
+    font-weight: lighter;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .details {
+    display: flex;
+    width: 420px;
+    font-weight: 800;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .right-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 695px;
+    width: 100%;
+    padding-right: 20px;
+    text-align: right;
+    border-radius: 20px;
+  }
+  .head-name {
+    display: flex;
+    flex-direction: column;
+  }
+  .right-deatails {
+    margin-bottom: 20px;
+  }
+  .head-title {
+    font-weight: 800;
+    font-size: 20px;
+    text-align: right; 
+  }
+  .number-inpt {
+    border: 1px solid gray;
+    padding: 10px;
+  }
+  .details-box {
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  .price-shower {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center; 
+  }
+  .price-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    gap: 20px; 
+  }
+  .more-p {
+    margin-top: 20px;
+    font-weight: 800;
+    font-size: 20px;
+    text-align: right;
+  }
+  .more-p-2 {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: right;
+  }
+  .submit {
+    display: flex;
+    justify-content: center;
+  }
+  .submit-btn {
+    width: 250px;
+    border: 1px solid gray;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, @primary-color, @secondary-color);
+  }
+}
